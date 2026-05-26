@@ -19,7 +19,7 @@ function App() {
             style={{background: view === 'upload' ? 'var(--accent-primary)' : 'transparent', border: view === 'upload' ? 'none' : '1px solid var(--border-color)'}}
             onClick={() => setView('upload')}
           >
-            Upload Data
+            Analyse Data
           </button>
           <button 
             style={{background: view === 'review' ? 'var(--accent-primary)' : 'transparent', border: view === 'review' ? 'none' : '1px solid var(--border-color)'}}
