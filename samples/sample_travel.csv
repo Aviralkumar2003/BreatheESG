@@ -1,0 +1,56 @@
+Employee_ID,Flight_Date,Origin_City,Arrival_City,Distance_km,Class
+EMP-668,2024-01-01,Berlin,Rome,6928,Business
+EMP-945,2024-01-02,Berlin,Dubai,6599,Business
+EMP-437,2024-01-03,London,Singapore,3877,First
+EMP-232,2024-01-04,Berlin,Los Angeles,818,Business
+EMP-972,2024-01-05,London,Dubai,1383,Business
+EMP-471,2024-01-06,Berlin,Dubai,3880,First
+EMP-578,2024-01-07,London,Los Angeles,5223,First
+EMP-520,2024-01-08,Berlin,Rome,7857,Business
+EMP-234,2024-01-09,Berlin,Dubai,5215,Business
+EMP-359,2024-01-10,Berlin,Dubai,806,Economy
+EMP-525,2024-01-11,Berlin,Singapore,6851,Business
+EMP-184,2024-01-12,London,Los Angeles,5337,Business
+EMP-123,2024-01-13,London,Singapore,1992,Business
+EMP-129,2024-01-14,New York,Singapore,4060,Business
+EMP-422,2024-01-15,Berlin,Singapore,1453,Business
+EMP-499,2024-01-16,London,Sydney,5911,Business
+EMP-977,2024-01-17,Tokyo,Los Angeles,7390,Business
+EMP-847,2024-01-18,Paris,Singapore,9332,Business
+EMP-675,2024-01-19,Paris,Singapore,3978,Business
+EMP-460,2024-01-20,Berlin,Rome,8903,First
+EMP-800,2024-01-21,Paris,UNKNOWN,8438,Business
+EMP-300,2024-01-22,Berlin,Sydney,6354,Economy
+EMP-109,2024-01-23,Berlin,Los Angeles,9242,Business
+EMP-239,2024-01-24,New York,Sydney,3817,Economy
+EMP-274,2024-01-25,Paris,Los Angeles,1401,First
+EMP-544,2024-01-26,Paris,Singapore,9763,Economy
+EMP-157,2024-01-27,Paris,Rome,583,Economy
+EMP-644,2024-01-28,Tokyo,Singapore,9935,Economy
+EMP-814,2024-01-29,New York,Rome,4786,Economy
+EMP-869,2024-01-30,Tokyo,Sydney,1449,Economy
+EMP-717,2024-01-31,London,Singapore,5412,First
+EMP-295,2024-02-01,Tokyo,Rome,6526,Business
+EMP-150,2024-02-02,Berlin,Singapore,3956,Business
+EMP-878,2024-02-03,Berlin,Singapore,3075,First
+EMP-113,2024-02-04,London,Singapore,4362,Economy
+EMP-860,2024-02-05,Paris,Dubai,7396,Business
+EMP-608,2024-02-06,London,Dubai,7589,First
+EMP-937,2024-02-07,London,Rome,5522,First
+EMP-903,2024-02-08,New York,Singapore,3655,First
+EMP-861,2024-02-09,Tokyo,Dubai,3152,First
+EMP-759,2024-02-10,Paris,Sydney,3076,Business
+EMP-813,2024-02-11,Tokyo,Los Angeles,2294,Economy
+EMP-122,2024-02-12,Tokyo,Los Angeles,3350,Economy
+EMP-982,2024-02-13,New York,Singapore,5312,First
+EMP-982,2024-02-14,Paris,Sydney,1648,First
+EMP-630,2024-02-15,Tokyo,Dubai,7051,First
+EMP-389,2024-02-16,London,Rome,1904,Business
+EMP-311,2024-02-17,Tokyo,Rome,9449,First
+EMP-592,2024-02-18,Paris,Los Angeles,4063,Business
+EMP-489,2024-02-19,Tokyo,Singapore,3061,Economy
+EMP-775,2024-02-20,Paris,Dubai,8480,First
+EMP-420,2024-02-21,New York,Rome,6196,Economy
+EMP-176,2024-02-22,New York,Rome,7545,Business
+EMP-103,2024-02-23,Tokyo,Dubai,5690,First
+EMP-644,2024-02-24,London,Dubai,8191,Economy

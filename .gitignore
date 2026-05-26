@@ -1,0 +1,43 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+venv/
+env/
+.env
+.env.*
+
+# Django
+db.sqlite3
+media/
+
+# Frontend builds
+frontend/node_modules/
+frontend/dist/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+ANTIGRAVITY.md
+IMPLEMENTATION_CHECKLIST.md
+IMPLEMENTATION_PLAN.md
+docs/ARCHITECTURE.md
+docs/BOOTSTRAP_PROMPT_BreatheESG.md
+docs/PRD_BreatheESG.md
