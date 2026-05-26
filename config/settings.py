@@ -6,7 +6,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-&vkikb=y&u1zx+4_)j4m2n@wb)h%1(f857ozqgsemv+@r8c$qe')
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
+
+def _clean_host(h):
+    """Strip protocol prefix and trailing slashes so ALLOWED_HOSTS always contains bare hostnames."""
+    h = h.strip().rstrip('/')
+    for prefix in ('https://', 'http://'):
+        if h.startswith(prefix):
+            h = h[len(prefix):]
+    return h
+
+_allowed = [_clean_host(h) for h in os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',') if h.strip()]
+_railway_domain = _clean_host(os.environ.get('RAILWAY_PUBLIC_DOMAIN', ''))
+if _railway_domain and _railway_domain not in _allowed:
+    _allowed.append(_railway_domain)
+ALLOWED_HOSTS = _allowed
 
 INSTALLED_APPS = [
     'django.contrib.auth',
